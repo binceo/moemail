@@ -1,7 +1,7 @@
 export const EMAIL_CONFIG = {
-  MAX_ACTIVE_EMAILS: 30, // Maximum number of active emails
+  MAX_ACTIVE_EMAILS: 50, // Maximum number of active emails
   POLL_INTERVAL: 10_000, // Polling interval in milliseconds
-  DOMAIN: 'moemail.app', // Email domain
+  DOMAIN: 'hongchen.eu.org', // Email domain
 } as const
 
 export const WEBHOOK_CONFIG = {
